@@ -20,10 +20,6 @@ public class LivroHandler {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("<-------- Dados do Livro -------->");
-        System.out.println("Digite o ID do livro:");
-        Long id = scanner.nextLong();
-        scanner.nextLine(); // Consumir a nova linha
-
         System.out.println("Digite o título do livro:");
         String titulo = scanner.nextLine();
 
